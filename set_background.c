@@ -5,7 +5,7 @@
 #include<sys/types.h>
 
 int main(int argc , char *argv[]) {
-  const char *destination = "/home/elliot/.config/omarchy/backgrounds/tokyo-night/";
+  const char *destination = "/home/your_username/.config/omarchy/backgrounds/tokyo-night/";
   if (argc < 2){
     printf("Usage: ./set_background imagefile1 imagefile2 ... \n");
     exit(1); 
