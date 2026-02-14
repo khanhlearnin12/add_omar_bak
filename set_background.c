@@ -27,7 +27,7 @@ void file_check(const char *file){
 int main(int argc , char *argv[]) {
   const char *destination = "/home/elliot/.config/omarchy/backgrounds/tokyo-night/";
   if (argc < 2){
-    printf("Usage: ./set_background imagefile1 imagefile2 ... (or picture directory) \n");
+    printf("Usage: ./addbak imagefile1 imagefile2 ... (or picture directory) \n");
     exit(1); 
   }
   for(int i = 1 ; i < argc; i++){ 
